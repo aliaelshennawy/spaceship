@@ -6,7 +6,7 @@
   "scripts": {
     "build": "node_modules/.bin/gulp",
     "start": "node_modules/.bin/gulp serve",
-    "serve": "http-server dist",
+    "serve": "node_modules/.bin/http-server dist",
     "lint": "eslint src/scripts/**/*/.js --debug --color",
     "format": "prettier --write --single-quote --semi=true --parser=flow --tab-width=2 \"src/scripts/**/*.js\""
   },
@@ -46,6 +46,7 @@
     "gulp-svgmin": "^1.2.4",
     "gulp-uglify": "^3.0.0",
     "gulp-useref": "^3.0.0",
+    "http-server": "^0.11.1",
     "main-bower-files": "^2.13.1",
     "postcss-cssnext": "^3.0.2",
     "postcss-dir-pseudo-class": "^2.1.0",
