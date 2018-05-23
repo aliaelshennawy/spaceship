@@ -61,4 +61,25 @@
     font-family: 'HelveticaNeue';
   }
 }
+.home-ast {
+  position: absolute;
+  bottom: 50px;
+  right: 60px;
+  .ast {
+    display: inline-block;
+    animation: upAndDown 4s infinite  alternate;
+    img {
+      width: 260px;
+      height: 160px;
+    }
+  }
+  .ast-2 {
+    transform: scaleX(-1) rotate(-30deg);;
+  }
+}
 
+
+@keyframes upAndDown {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-50px); }
+}
