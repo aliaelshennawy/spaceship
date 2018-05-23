@@ -1,0 +1,20 @@
+.header-wrapper {
+  height: 100px;
+  line-height: 100px;
+  margin-inline: 60px;
+}
+.navigation {
+  font-family: "BebasNeueBook";
+  font-size: 24px;
+  a {
+    text-decoration: none;
+    color: var(--blue);
+    text-transform: uppercase;
+  }
+  a:hover {
+    color: #fff;
+  }
+  li + li {
+    margin-left: 15px;
+  }
+}

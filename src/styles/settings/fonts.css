@@ -1,0 +1,44 @@
+@font-face {
+  font-family:"BebasNeue";
+  src:url("../fonts/BebasNeue.woff2") format("woff2"),url("../fonts/BebasNeue.woff") format("woff"),url("../fonts/BebasNeue.otf") format("opentype");
+  font-style:normal;
+  font-weight:400;
+}
+@font-face {
+  font-family:"BebasNeueBold";
+  src:url("../fonts/BebasNeueBold.woff2") format("woff2"),url("../fonts/BebasNeueBold.woff") format("woff"),url("../fonts/BebasNeueBold.otf") format("opentype");
+  font-style:normal;
+  font-weight:400;
+}
+@font-face {
+  font-family:"BebasNeueBook";
+  src:url("../fonts/BebasNeueBook.woff2") format("woff2"),url("../fonts/BebasNeueBook.woff") format("woff"),url("../fonts/BebasNeueBook.otf") format("opentype");
+  font-style:normal;
+  font-weight:400;
+}
+@font-face {
+  font-family:"BebasNeueLight";
+  src:url("../fonts/BebasNeueLight.woff2") format("woff2"),url("../fonts/BebasNeueLight.woff") format("woff"),url("../fonts/BebasNeueLight.otf") format("opentype");
+  font-style:normal;
+  font-weight:400;
+}
+@font-face {
+  font-family:"BebasNeueRegular";
+  src:url("../fonts/BebasNeueRegular.woff2") format("woff2"),url("../fonts/BebasNeueRegular.woff") format("woff"),url("../fonts/BebasNeueRegular.otf") format("opentype");
+  font-style:normal;
+  font-weight:400;
+}
+@font-face {
+  font-family:"BebasNeueThin";
+  src:url("../fonts/BebasNeueThin.woff2") format("woff2"),url("../fonts/BebasNeueThin.woff") format("woff"),url("../fonts/BebasNeueThin.otf") format("opentype");
+  font-style:normal;
+  font-weight:400;
+}
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('../fonts/helveticaneue-webfont.woff2') format('woff2'),
+       url('..fonts/helveticaneue-webfont.woff') format('woff'),
+       ulr('../fonts/HelveticaNeueLt.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
