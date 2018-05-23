@@ -1,0 +1,60 @@
+.about-title-wrapper {
+  content: '';
+  display: inline-block;
+  position: relative;
+  top: -220px;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-image: url('/images/cloud-1.png');
+  h1 {
+    font-family: "BebasNeueLight";
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    left: 0;
+    color: var(--gray);
+    font-size: 60px;
+  }
+  span {
+    font-family: "BebasNeueBook";
+    color: var(--blue);
+    display: block;
+  }
+}
+.about-description-wrapper {
+  content: '';
+  display: inline-block;
+  position: relative;
+  top: -400px;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url('/images/cloud-2.png');
+  .about-description {
+    font-family: 'HelveticaNeue-Thin';
+    margin: 0;
+    width: 85%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+}
+.about-budget {
+  display: flex;
+  align-items: center;
+  z-index: -1;
+  position: relative;
+  top: -500px;
+  height: 100vh;
+  background-color: var(--cyan);
+}
