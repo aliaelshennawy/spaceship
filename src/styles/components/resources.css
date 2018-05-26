@@ -13,6 +13,18 @@
   background-position: center -100px;
   bottom: 0;
 }
+.resources::after {
+  content: '';
+  display: inline-block;
+  background-image: url('/images/cloud-blue-large.png');
+  width: 100%;
+  height: 180px;
+  position: absolute;
+  background-size: cover;
+  background-position: center 80px;
+  bottom: 0;
+  background-repeat: no-repeat;
+ }
 .resources {
   display: flex;
   align-items: center;
