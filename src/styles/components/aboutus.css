@@ -1,5 +1,17 @@
 .about {
   position: relative;
+  height: 150vh;
+ }
+ .about::after {
+   content: '';
+  display: inline-block;
+  background-image: url('/images/cloud-1.png');
+  width: 100%;
+  height: 180px;
+  position: absolute;
+  background-size: cover;
+  background-position: center -100px;
+  bottom: 0;
  }
 .about-title-wrapper {
   content: '';
@@ -57,7 +69,7 @@
   align-items: center;
   z-index: -1;
   position: absolute;
-  height: 100vh;
+  height: 150vh;
   right: 0;
   left: 0;
   background-color: var(--cyan);
@@ -66,7 +78,7 @@
     position: absolute;
     left: 150px;
     right: 100px;
-    top: 80%;
+    top: 60%;
     width: 30%;
   }
   .budget-visuals {
@@ -75,12 +87,12 @@
     display: inline-block;
     background-image: url('/images/cloud-3.png');
     background-size: contain ;
-    background-position: center , center top;
-    background-repeat: no-repeat , no-repeat;
+    background-position: center ;
+    background-repeat: no-repeat ;
     position: absolute;
     width: 500px;
     height: 500px;
-    top: 60%;
+    top: 50%;
     right: 100px;
     .budget-visuals-description {
       position: relative;
