@@ -8,7 +8,8 @@
     "start": "node_modules/.bin/gulp serve",
     "serve": "node_modules/.bin/http-server dist",
     "lint": "eslint src/scripts/**/*/.js --debug --color",
-    "format": "prettier --write --single-quote --semi=true --parser=flow --tab-width=2 \"src/scripts/**/*.js\""
+    "format": "prettier --write --single-quote --semi=true --parser=flow --tab-width=2 \"src/scripts/**/*.js\"",
+    "start": "node index.js"
   },
   "devDependencies": {
     "babel-core": "^6.4.0",
