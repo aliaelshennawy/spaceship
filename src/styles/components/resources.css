@@ -1,6 +1,10 @@
 .resources {
   position: relative;
-  height: 100vh;
+  height: 140vh;
+}
+.resources-wrapper {
+  height: 140vh;
+  width: 100%;
 }
 .resources::before {
   content: '';
@@ -38,7 +42,7 @@
     position: absolute;
     right: 100px;
     width: 30%;
-    top: 40%;
+    top: 30%;
   }
   .resources-visuals {
     font-size: 70px;
@@ -51,7 +55,7 @@
     position: absolute;
     width: 650px;
     height: 400px;
-    top: 30%;
+    top: 20%;
     left: 100px;
     .resources-visuals-description {
       position: relative;
