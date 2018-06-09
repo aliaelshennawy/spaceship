@@ -22,6 +22,7 @@
   .video-ast {
     .ast {
       display: inline-block;
+      animation: floating 4s infinite  alternate;
     }
     img {
       width: 260px;
