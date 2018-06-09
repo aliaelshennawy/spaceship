@@ -9,6 +9,7 @@
   a {
     color: #fff;
     text-decoration: none;
+    cursor: pointer;
   }
   li + li {
     margin-right: 15px;
