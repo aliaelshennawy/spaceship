@@ -30,18 +30,18 @@
   background-position: center;
   bottom: -140px;
 }
+
 .together-tree::before {
   position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
   content: '';
-  width: 1000px;
-  height: 600px;
+  width: 75%;
+  right: 50%;
+  transform: translateX(50%);
+  height: 720px;
   display: inline-block;
   background-image: url('/images/tree-2.png');
-  background-size: cover;
-  background-position: 0 -100px;
+  background-size: contain;
+  background-position: top center;
   background-repeat: no-repeat;
 }
 .together-items-wrapper {
@@ -57,8 +57,9 @@
   }
   .together-title {
     color: #fff;
-    font-size: 50px;
-    font-family: "BebasNeueBold";
+    font-size: 28px;
+    font-weight: bold;
+    font-family: helvetica;
     span {
       display: block;
     }

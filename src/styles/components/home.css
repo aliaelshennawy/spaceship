@@ -22,7 +22,7 @@
   background-size: cover , cover;
   background-repeat: no-repeat;
   background-position: center;
-  animation: floating 4s infinite  alternate;
+  animation: floating1 4s infinite  alternate;
   -webkit-filter: blur(4px);
   -moz-filter: blur(4px);
   -o-filter: blur(4px);
@@ -42,7 +42,7 @@
   background-size: cover , cover;
   background-repeat: no-repeat;
   background-position: center;
-  animation: floating 4s infinite  alternate;
+  animation: floating3 4s infinite  alternate;
   -webkit-filter: blur(6px);
   -moz-filter: blur(6px);
   -o-filter: blur(6px);
@@ -62,7 +62,7 @@
   background-size: cover , cover;
   background-repeat: no-repeat;
   background-position: center;
-  animation: floating 4s infinite  alternate;
+  animation: floating2 3s infinite  alternate;
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px);
   -o-filter: blur(5px);
@@ -131,17 +131,35 @@
       height: 160px;
     }
   }
+  .ast-1 {
+    animation: animateAst1 4s infinite  alternate;
+  }
   .ast-2 {
-    transform: scaleX(-1) rotate(-30deg);;
+    animation: animateAst2 4s infinite  alternate;
+    /*transform: scaleX(-1) rotate(-30deg);;*/
   }
 }
 
-@keyframes floating {
+@keyframes floating1 {
   0% { transform: translateY(0); }
   100% { transform: translateY(-30px); }
 }
 
-@keyframes upAndDown {
+@keyframes floating3 {
   0% { transform: translateY(0); }
   100% { transform: translateY(-50px); }
+}
+@keyframes floating2 {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(60px); }
+}
+
+@keyframes animateAst2 {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-25px); }
+}
+
+@keyframes animateAst1 {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(25px); }
 }

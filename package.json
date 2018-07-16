@@ -55,12 +55,14 @@
     "postcss-logical": "^1.0.2",
     "postcss-nested": "^3.0.0",
     "postcss-retina-bg-img": "^4.1.0",
+    "postcss-scss": "^1.0.6",
     "prettier": "^1.9.2",
     "run-sequence": "^1.2.2",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0"
   },
   "dependencies": {
+    "aos": "^2.3.2",
     "jquery": "^3.2.1",
     "lity": "^2.3.0",
     "scrollreveal": "^3.4.0",

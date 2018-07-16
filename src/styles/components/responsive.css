@@ -1,0 +1,249 @@
+
+#menu-icon {
+  display: none;
+  color: #fff;
+}
+.open {
+  margin: 0;
+  height: 100%;
+  overflow: hidden
+}
+@media(max-width: 767px) {
+.header-wrapper {
+  margin: 0;
+  line-height: 20px;
+}
+#menu-icon {
+  display: block;
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  color: $white;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 1;
+  padding: 0 0.4em;
+  &:hover {
+    opacity: 0.85;
+    text-decoration: none;
+    border: none;
+  }
+}
+.navbar {
+  display: none;
+}
+.expand {
+  max-height: 100vh;
+}
+.navigation li+li {
+  margin: 0;
+}
+.navbar.expand {
+  display: block;
+  position: fixed;
+  overflow: hidden;
+  background-color: #000;
+  float: none !important;
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+  padding-left: 20px;
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    height: 100%;
+    li {
+      line-height: 40px;
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
+.home-description-wrapper:before, .home-title-wrapper {
+  background: none;
+}
+.home-ast {
+  display: none;
+}
+.home-description-wrapper {
+  top: 50vh;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.navigation {
+  font-size: 16px;
+}
+.header-wrapper .logo-wrapper img {
+  width: 80px;
+  }
+  .home-title-wrapper {
+    width: 100%;
+    position: static;
+  }
+  .home-title-wrapper .home-title {
+    font-size: 40px;
+  }
+  .home-title-wrapper .home-title {
+    width: 100%;
+    top: 240px;
+  }
+  .about-description-wrapper {
+    width: 100%;
+    top: 50px;
+  }
+  .home-description-wrapper .home-description {
+    order: -1;
+  }
+  .home-description-wrapper .home-action {
+    font-size: 26px;
+    border-width: 2px;
+  }
+  .about-title-wrapper h1 {
+    font-size: 40px;
+    top: 50%;
+  }
+  .about-description-wrapper .about-description {
+    top: 25%;
+    font-size: 16px;
+  }
+  .about-budget .budget-visuals {
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 40%;
+    font-size: 60px;
+    height: 260px;
+    background-position: 45%;
+  }
+  .about-budget .budget-visuals .budget-visuals-icon {
+    width: 300px;
+    height: 300px;
+    top: -140px;
+  }
+  .about-budget .budget-description {
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 65%;
+  }
+  .about-budget .budget-visuals .budget-visuals-description p {
+    font-size: 40px;
+    width: 250px;
+    margin: 0 auto;
+  }
+  .about-title-wrapper, .about:after {
+    content: '';
+    background-position: center 70px;
+    background-repeat: no-repeat;
+  }
+  .resources .resources-visuals {
+    left: 0;
+    width: 100%;
+    display: block;
+    right: 0;
+    height: 260px;
+    background-position: 45%;
+  }
+  .resources .resources-description {
+    width: 90%;
+    margin: 0 auto;
+    top: 60%;
+    right: 10px;
+    left: 10px;
+  }
+  .resources .resources-visuals .resources-icon {
+    width: 100%;
+    height: 100%;
+    top: -130px;
+  }
+  .resources .resources-visuals .resources-visuals-description  p {
+    top: 40%;
+    font-size: 40px;
+  }
+  .about {
+    height: 200vh;
+  }
+  .about-budget {
+    height: 200vh;
+  }
+  .awarness-wrapper .awarness-description {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    top: 50%;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .together-items-wrapper {
+    padding-left: 20px;
+    padding-right: 23px;
+    height: 120vh;
+  }
+  .awarness-wrapper .awarness-visuals {
+    width: 100%;
+    right: 0;
+    height: 260px;
+    font-size: 40px;
+  }
+  .video-section {
+    height: 120vh;
+  }
+  .video-wrapper {
+    height: 80vh;
+    .video-ast {
+      display: none;
+    }
+    iframe {
+      width: 90%;
+      margin: 0 auto;
+    }
+    p {
+      font-size: 28px;
+    }
+  }
+  .awarness-wrapper {
+    height: 180vh;
+  }
+  .awarness {
+    height: 180vh;
+  }
+  .awarness-tree {
+    height: 300px;
+  }
+  .together-wrapper {
+    height: 20vh;
+  }
+  .together {
+    height: 160vh;
+  }
+  .together-items-wrapper p {
+    font-size: 18px;
+  }
+  .footer-wrapper {
+    flex-direction: column;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .footer-logo {
+      order: -1;
+    }
+    .footer-links , .footer-social {
+      width: 100%;
+      line-height: 20px;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+}

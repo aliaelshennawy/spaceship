@@ -7,7 +7,7 @@
 /* Functions */
 
 /* Mixins */
-
+@import '../../node_modules/aos/dist/aos.css';
 /* Generic – reset and/or normalize styles, box-sizing definition, etc. This is the first layer which generates actual CSS. */
 @import 'generic/box-model.css';
 
@@ -25,6 +25,7 @@
 @import 'components/together.css';
 @import 'components/footer.css';
 @import 'components/video-section.css';
+@import 'components/responsive.css';
 
 /* Utilities – utilities and helper classes with ability to override anything which goes before in the triangle, eg. hide helper class */
 @import 'utilities/floats.css';

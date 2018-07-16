@@ -1,13 +1,21 @@
-import ScrollReveal from 'scrollreveal';
+import $ from 'jquery';
+import Aos from 'aos';
 
 const App = {
   init() {
-    this.animatePages();
+    var AOS = require('aos');
+    AOS.init({
+      duration: 1200
+    });
+    $(document).ready(function(){
+      $('#menu-icon').on('click', function(){
+        console.log('clicked');
+        $('.navbar').toggleClass('expand');
+        $('html, body').toggleClass('open');
+        return false;
+      });
+    });
   },
-  animatePages() {
-    window.sr = ScrollReveal();
-    sr.reveal('.content', { duration: 600 });
-  }
 };
 
 export default App;

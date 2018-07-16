@@ -1,9 +1,9 @@
 .awarness {
-  height: 200vh;
+  height: 240vh;
 }
 .awarness-wrapper {
   position: relative;
-  height: 200vh;
+  height: 240vh;
 }
 .awarness-wrapper {
   display: flex;
@@ -19,25 +19,26 @@
     position: absolute;
     left: 150px;
     right: 100px;
-    top: 35%;
+    top: 25%;
     width: 30%;
   }
   .awarness-visuals {
-    font-size: 80px;
+    font-size: 55px;
     content: '';
     display: inline-block;
-    background-image: url('/images/cloud-3.png');
-    background-size: contain ;
+    background-image: url('/images/cloud-white-small.png');
+    background-size: cover ;
     background-position: center ;
     background-repeat: no-repeat ;
     position: absolute;
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 350px;
     top: 20%;
     right: 100px;
     .awarness-visuals-description {
       position: relative;
       height: 100%;
+      z-index: 1;
       p {
         top: 40%;
         text-align: center;
@@ -54,8 +55,8 @@
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
-      width: 450px;
-      height: 450px;
+      width: 350px;
+      height: 350px;
       position: absolute;
       z-index: -1;
       top: -180px;
@@ -71,14 +72,14 @@
 .awarness-tree {
   position: absolute;
   bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
   content: '';
-  width: 1000px;
-  height: 600px;
+  width: 70%;
+  height: 720px;
+  right: 50%;
+  transform: translateX(50%);
   display: inline-block;
   background-image: url('/images/tree-1.png');
-  background-size: cover;
-  background-position: center center;
+  background-size: contain;
+  background-position: bottom center;
   background-repeat: no-repeat;
 }
