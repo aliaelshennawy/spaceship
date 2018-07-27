@@ -1,9 +1,22 @@
 .awarness {
-  height: 240vh;
+  height: 285vh;
 }
 .awarness-wrapper {
   position: relative;
-  height: 240vh;
+  height: 285vh;
+}
+.awarness-wrapper:before {
+  content: '';
+  display: inline-block;
+  background-image: url('/images/cloud-blue-large.png');
+  width: 100%;
+  height: 180px;
+  position: absolute;
+  background-size: cover;
+  background-position: center 80px;
+  position: absolute;
+  top: -180px;
+  background-repeat: no-repeat;
 }
 .awarness-wrapper {
   display: flex;
@@ -19,7 +32,7 @@
     position: absolute;
     left: 150px;
     right: 100px;
-    top: 25%;
+    top: 15%;
     width: 30%;
   }
   .awarness-visuals {
@@ -33,7 +46,7 @@
     position: absolute;
     width: 500px;
     height: 350px;
-    top: 20%;
+    top: 10%;
     right: 100px;
     .awarness-visuals-description {
       position: relative;
@@ -71,15 +84,16 @@
 }
 .awarness-tree {
   position: absolute;
-  bottom: 0;
   content: '';
-  width: 70%;
-  height: 720px;
+  /*top: 50%;*/
+  width: 100%;
+  height: 70%;
   right: 50%;
   transform: translateX(50%);
   display: inline-block;
-  background-image: url('/images/tree-1.png');
-  background-size: contain;
+  background: url('/images/tree-background.png');
+  background-size: cover;
   background-position: bottom center;
-  background-repeat: no-repeat;
+  bottom: -100px;
+  z-index: 1;
 }

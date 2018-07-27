@@ -1,10 +1,9 @@
 .together {
-  height: 220vh;
+  height: 180vh;
   position: relative;
 }
 .together-wrapper {
   position: relative;
-  height: 80vh;
   background-color: var(--blue);
 }
 .together::before {
@@ -17,7 +16,7 @@
   background-size: cover;
   background-position: center;
   z-index: 1;
-  bottom: -60px;
+  bottom: 130px;
 }
 .together::after {
   content: '';
@@ -28,22 +27,9 @@
   position: absolute;
   background-size: cover;
   background-position: center;
-  bottom: -140px;
+  bottom: -20px;
 }
 
-.together-tree::before {
-  position: absolute;
-  content: '';
-  width: 75%;
-  right: 50%;
-  transform: translateX(50%);
-  height: 720px;
-  display: inline-block;
-  background-image: url('/images/tree-2.png');
-  background-size: contain;
-  background-position: top center;
-  background-repeat: no-repeat;
-}
 .together-items-wrapper {
   background-color: var(--blue);
   padding-inline: 100px;

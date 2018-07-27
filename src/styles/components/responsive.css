@@ -194,6 +194,9 @@
     height: 260px;
     font-size: 40px;
   }
+  .awarness-wrapper::after {
+    height: 194px;
+  }
   .video-section {
     height: 120vh;
   }
@@ -217,10 +220,7 @@
     height: 180vh;
   }
   .awarness-tree {
-    height: 300px;
-  }
-  .together-wrapper {
-    height: 20vh;
+    height: 400px;
   }
   .together {
     height: 160vh;

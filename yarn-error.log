@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js star
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js buils
 
 PATH: 
   /Users/aliaelshennawy/.rvm/gems/ruby-2.3.0/bin:/Users/aliaelshennawy/.rvm/gems/ruby-2.3.0@global/bin:/Users/aliaelshennawy/.rvm/rubies/ruby-2.3.0/bin:/Users/aliaelshennawy/miniconda2/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/aliaelshennawy/.rvm/bin
@@ -71,12 +71,14 @@ npm manifest:
       "postcss-logical": "^1.0.2",
       "postcss-nested": "^3.0.0",
       "postcss-retina-bg-img": "^4.1.0",
+      "postcss-scss": "^1.0.6",
       "prettier": "^1.9.2",
       "run-sequence": "^1.2.2",
       "vinyl-buffer": "^1.0.1",
       "vinyl-source-stream": "^2.0.0"
     },
     "dependencies": {
+      "aos": "^2.3.2",
       "jquery": "^3.2.1",
       "lity": "^2.3.0",
       "scrollreveal": "^3.4.0",
@@ -315,6 +317,12 @@ Lockfile:
     dependencies:
       color-convert "^1.9.0"
   
+  ansi-styles@^3.2.1:
+    version "3.2.1"
+    resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
+    dependencies:
+      color-convert "^1.9.0"
+  
   ansi-wrap@0.1.0:
     version "0.1.0"
     resolved "https://registry.yarnpkg.com/ansi-wrap/-/ansi-wrap-0.1.0.tgz#a82250ddb0015e9a27ca82e82ea603bbfa45efaf"
@@ -325,6 +333,14 @@ Lockfile:
     dependencies:
       micromatch "^2.1.5"
       normalize-path "^2.0.0"
+  
+  aos@^2.3.2:
+    version "2.3.2"
+    resolved "https://registry.yarnpkg.com/aos/-/aos-2.3.2.tgz#f00080aa9987ee3c0f0f18a8ee49a1bd508aa340"
+    dependencies:
+      classlist-polyfill "^1.0.3"
+      lodash.debounce "^4.0.6"
+      lodash.throttle "^4.0.1"
   
   append-buffer@^1.0.2:
     version "1.0.2"
@@ -1608,6 +1624,14 @@ Lockfile:
       strip-ansi "^3.0.0"
       supports-color "^2.0.0"
   
+  chalk@^2.4.1:
+    version "2.4.1"
+    resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.1.tgz#18c49ab16a037b6eb0152cc83e3471338215b66e"
+    dependencies:
+      ansi-styles "^3.2.1"
+      escape-string-regexp "^1.0.5"
+      supports-color "^5.3.0"
+  
   character-parser@^2.1.1:
     version "2.2.0"
     resolved "https://registry.yarnpkg.com/character-parser/-/character-parser-2.2.0.tgz#c7ce28f36d4bcd9744e5ffc2c5fcde1c73261fc0"
@@ -1658,6 +1682,10 @@ Lockfile:
       define-property "^0.2.5"
       isobject "^3.0.0"
       static-extend "^0.1.1"
+  
+  classlist-polyfill@^1.0.3:
+    version "1.2.0"
+    resolved "https://registry.yarnpkg.com/classlist-polyfill/-/classlist-polyfill-1.2.0.tgz#935bc2dfd9458a876b279617514638bcaa964a2e"
   
   clean-css@4.1.x:
     version "4.1.9"
@@ -4096,6 +4124,10 @@ Lockfile:
     version "2.0.0"
     resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-2.0.0.tgz#e8207af1cc7b30d446cc70b734b5e8be18f88d51"
   
+  has-flag@^3.0.0:
+    version "3.0.0"
+    resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
+  
   has-gulplog@^0.1.0:
     version "0.1.0"
     resolved "https://registry.yarnpkg.com/has-gulplog/-/has-gulplog-0.1.0.tgz#6414c82913697da51590397dafb12f22967811ce"
@@ -5266,6 +5298,10 @@ Lockfile:
     version "4.5.2"
     resolved "https://registry.yarnpkg.com/lodash.cond/-/lodash.cond-4.5.2.tgz#f471a1da486be60f6ab955d17115523dd1d255d5"
   
+  lodash.debounce@^4.0.6:
+    version "4.0.8"
+    resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
+  
   lodash.defaults@~2.4.1:
     version "2.4.1"
     resolved "https://registry.yarnpkg.com/lodash.defaults/-/lodash.defaults-2.4.1.tgz#a7e8885f05e68851144b6e12a8f3678026bc4c54"
@@ -5418,6 +5454,10 @@ Lockfile:
     dependencies:
       lodash._reinterpolate "~2.4.1"
       lodash.escape "~2.4.1"
+  
+  lodash.throttle@^4.0.1:
+    version "4.1.1"
+    resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
   
   lodash.uniq@^4.5.0:
     version "4.5.0"
@@ -6900,6 +6940,12 @@ Lockfile:
     dependencies:
       postcss "^6.0.11"
   
+  postcss-scss@^1.0.6:
+    version "1.0.6"
+    resolved "https://registry.yarnpkg.com/postcss-scss/-/postcss-scss-1.0.6.tgz#ab903f3bb20161bc177896462293a53d4bff5f7a"
+    dependencies:
+      postcss "^6.0.23"
+  
   postcss-selector-matches@^3.0.0, postcss-selector-matches@^3.0.1:
     version "3.0.1"
     resolved "https://registry.yarnpkg.com/postcss-selector-matches/-/postcss-selector-matches-3.0.1.tgz#e5634011e13950881861bbdd58c2d0111ffc96ab"
@@ -6975,6 +7021,14 @@ Lockfile:
       chalk "^2.3.0"
       source-map "^0.6.1"
       supports-color "^5.1.0"
+  
+  postcss@^6.0.23:
+    version "6.0.23"
+    resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.23.tgz#61c82cc328ac60e677645f979054eb98bc0e3324"
+    dependencies:
+      chalk "^2.4.1"
+      source-map "^0.6.1"
+      supports-color "^5.4.0"
   
   prelude-ls@~1.1.2:
     version "1.1.2"
@@ -8315,6 +8369,12 @@ Lockfile:
     dependencies:
       has-flag "^2.0.0"
   
+  supports-color@^5.3.0, supports-color@^5.4.0:
+    version "5.4.0"
+    resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-5.4.0.tgz#1c6b337402c2137605efe19f10fec390f6faab54"
+    dependencies:
+      has-flag "^3.0.0"
+  
   svg-sprite@~1.3.7:
     version "1.3.7"
     resolved "https://registry.yarnpkg.com/svg-sprite/-/svg-sprite-1.3.7.tgz#7ade036000e8794a3f814402a808aae290ecd1f3"
@@ -9293,7 +9353,7 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/yeast/-/yeast-0.1.2.tgz#008e06d8094320c372dbc2f8ed76a0ca6c8ac419"
 
 Trace: 
-  Error: Command "star" not found. Did you mean "start"?
+  Error: Command "buils" not found. Did you mean "build"?
       at new MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
       at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:87307:17
       at Generator.next (<anonymous>)
