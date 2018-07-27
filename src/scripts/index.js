@@ -7,7 +7,6 @@ const App = {
     AOS.init({
       duration: 1200,
       disable: 'mobile',
-      easing: 'ease',
     });
     $(document).ready(function() {
       $('#menu-icon').on('click', function() {
