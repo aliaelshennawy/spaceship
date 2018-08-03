@@ -1,33 +1,30 @@
 .together {
-  height: 180vh;
+  height: 160vh;
   position: relative;
-}
-.together-wrapper {
-  position: relative;
-  background-color: var(--blue);
 }
 .together::before {
   content: '';
   display: inline-block;
   background-image: url('/images/cloud-deep-blue.png');
   width: 100%;
-  height: 280px;
+  height: 320px;
   position: absolute;
   background-size: cover;
   background-position: center;
   z-index: 1;
-  bottom: 130px;
+  bottom: 0px;
 }
 .together::after {
   content: '';
   display: inline-block;
   background-image: url('/images/cloud-1.png');
   width: 100%;
-  height: 320px;
+  height: 500px;
   position: absolute;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
-  bottom: -20px;
+  background-repeat: no-repeat;
+  bottom: -155px;
 }
 
 .together-items-wrapper {

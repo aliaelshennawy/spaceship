@@ -13,6 +13,15 @@
   margin: 0;
   line-height: 20px;
 }
+.together:before {
+  bottom: -50px;
+  height: 120px;
+}
+.together:after{
+  bottom: -130px;
+  height: 200px;
+}
+
 #menu-icon {
   display: block;
   position: absolute;
@@ -98,6 +107,8 @@
   }
   .about-description-wrapper {
     width: 100%;
+    height: 400px;
+    background-size: cover;
     top: 50px;
   }
   .home-description-wrapper .home-description {
@@ -112,17 +123,18 @@
     top: 50%;
   }
   .about-description-wrapper .about-description {
-    top: 25%;
+    top: 40%;
     font-size: 16px;
   }
   .about-budget .budget-visuals {
     width: 100%;
-    left: 0;
-    right: 0;
-    top: 40%;
+    background-size: cover;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 38%;
     font-size: 60px;
-    height: 260px;
-    background-position: 45%;
+    height: 360px;
+    background-position: center;
   }
   .about-budget .budget-visuals .budget-visuals-icon {
     width: 300px;
@@ -137,8 +149,9 @@
   }
   .about-budget .budget-visuals .budget-visuals-description p {
     font-size: 40px;
-    width: 250px;
     margin: 0 auto;
+    left: 30%;
+    top: 60%;
   }
   .about-title-wrapper, .about:after {
     content: '';
@@ -166,7 +179,7 @@
     top: -130px;
   }
   .resources .resources-visuals .resources-visuals-description  p {
-    top: 40%;
+    top: 50%;
     font-size: 40px;
   }
   .about {
@@ -179,20 +192,24 @@
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    top: 50%;
+    top: 45%;
     width: 90%;
     margin: 0 auto;
+  }
+  .awarness-wrapper .awarness-visuals .awarness-visuals-description p {
+    left: 25%;
+    top: 52%;
   }
   .together-items-wrapper {
     padding-left: 20px;
     padding-right: 23px;
-    height: 120vh;
+    height: 160vh;
   }
   .awarness-wrapper .awarness-visuals {
     width: 100%;
     right: 0;
-    height: 260px;
-    font-size: 40px;
+    height: 420px;
+    font-size: 36px;
   }
   .awarness-wrapper::after {
     height: 194px;
@@ -201,7 +218,7 @@
     height: 120vh;
   }
   .video-wrapper {
-    height: 80vh;
+    height: 120vh;
     .video-ast {
       display: none;
     }
@@ -214,10 +231,10 @@
     }
   }
   .awarness-wrapper {
-    height: 180vh;
+    height: 160vh;
   }
   .awarness {
-    height: 180vh;
+    height: 160vh;
   }
   .awarness-tree {
     height: 400px;

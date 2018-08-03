@@ -6,7 +6,7 @@ const App = {
     var AOS = require('aos');
     AOS.init({
       duration: 1200,
-      disable: 'mobile',
+      disable: 'mobile'
     });
     $(document).ready(function() {
       $('#menu-icon').on('click', function() {
